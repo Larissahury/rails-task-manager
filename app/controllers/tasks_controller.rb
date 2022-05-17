@@ -31,7 +31,7 @@ class TasksController < ApplicationController
   def destroy
     @task.destroy
 
-    redirect_to task_path
+    redirect_to index_path
   end
 
   private
